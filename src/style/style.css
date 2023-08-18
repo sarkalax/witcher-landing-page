@@ -80,22 +80,6 @@ header li a {
     -webkit-background-clip: text;
     filter: drop-shadow(-2px 5px var(--darkBlue));
 }
-
-header li a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    border-radius: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 4px;
-    background: linear-gradient(45deg, var(--bloodyRed), var(--fireOrange), var(--bloodyRed));
-    transition: width 0.8s ease-in-out;
-}
-header li a:hover::after {
-    width: 100%;
-}
 .img {
     position: absolute;
     width: 100%;
@@ -137,7 +121,7 @@ header li a:hover::after {
     background-repeat: no-repeat;
     filter: saturate(1);
     animation: fire 3s ease-in-out infinite;
-    z-index: 3;
+    z-index: 8;
 }
 .imgArm {
     background: url("../img/arm.png");
@@ -153,3 +137,45 @@ header li a:hover::after {
     z-index: 2;
 }
 
+@keyframes heads {
+    50% {
+        transform: rotateY(10deg);
+    }
+}
+/* @keyframes geralt {
+    50% {
+        transform: rotateZ(0.4deg) rotateX(2deg);
+    }
+}
+@keyframes fire {
+    0%,
+    100% {
+        transform: scale(1.02);
+    }
+    50% {
+        filter: saturate(5.5);
+        transform: scale(1);
+    }
+}
+@keyframes arm {
+    50% {
+        transform: rotateZ(0.8deg) rotateX(4deg);
+    }
+} */
+@media screen and (min-width: 1440px) {
+    header li a::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        border-radius: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 4px;
+        background: linear-gradient(45deg, var(--bloodyRed), var(--fireOrange), var(--bloodyRed));
+        transition: width 0.8s ease-in-out;
+    }
+    header li a:hover::after {
+        width: 100%;
+    }
+}
