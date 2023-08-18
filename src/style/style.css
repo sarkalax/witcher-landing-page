@@ -109,7 +109,7 @@ header li a:hover::after {
     background-repeat: no-repeat;
     transform-origin: 75% 30%;
     animation: heads 4s ease-in-out infinite;
-    filter: drop-shadow(-30px 10px 10px var(--darkBlue));
+    filter: drop-shadow(-30px 10px 30px var(--darkBlue));
     z-index: 5;
 }
 .imgGeralt {
