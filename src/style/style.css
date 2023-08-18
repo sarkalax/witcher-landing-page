@@ -153,34 +153,3 @@ header li a:hover::after {
     z-index: 2;
 }
 
-@keyframes heads {
-    from {
-        transform: rotateX(4deg);
-    }
-    50% {
-        transform: rotateY(10deg);
-    }
-    to {
-        transform: rotateX(-4deg);
-    }
-}
-@keyframes geralt {
-    50% {
-        transform: rotateZ(0.2deg) rotateX(2deg);
-    }
-}
-@keyframes fire {
-    0%,
-    100% {
-        transform: scale(1.02);
-    }
-    50% {
-        filter: saturate(5.5);
-        transform: scale(1);
-    }
-}
-@keyframes arm {
-    50% {
-        transform: rotateZ(0.8deg) rotateX(4deg);
-    }
-}
