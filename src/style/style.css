@@ -140,7 +140,7 @@ header li a {
 
 @keyframes heads {
     50% {
-        transform: rotateY(20deg);
+        transform: rotateY(10deg);
     }
 }
 @keyframes geralt {
