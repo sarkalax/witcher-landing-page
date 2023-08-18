@@ -145,7 +145,7 @@ header li a:hover::after {
     background-size: cover;
     background-repeat: no-repeat;
     animation: arm 10s ease-in-out infinite;
-    z-index: 5;
+    z-index: 6;
 }
 .particles {
     position: fixed;
