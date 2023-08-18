@@ -63,6 +63,7 @@ header .logo {
     width: calc(var(--i) * 8);
     filter: drop-shadow(-2px 5px var(--darkBlue))
         drop-shadow(0 0 8px var(--darkBlue));
+    z-index: 99;
 }
 header ul {
     display: flex;
@@ -139,10 +140,10 @@ header li a {
 
 @keyframes heads {
     50% {
-        transform: rotateY(10deg);
+        transform: rotateY(20deg);
     }
 }
-/* @keyframes geralt {
+@keyframes geralt {
     50% {
         transform: rotateZ(0.4deg) rotateX(2deg);
     }
@@ -161,7 +162,7 @@ header li a {
     50% {
         transform: rotateZ(0.8deg) rotateX(4deg);
     }
-} */
+}
 @media screen and (min-width: 1440px) {
     header li a::after {
         content: "";
