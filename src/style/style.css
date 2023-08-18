@@ -156,8 +156,7 @@ header li a:hover::after {
 
 @keyframes heads {
     from {
-        transform: ra;
-        /* transform: rotate3D(-0.5, -0.5, -0.25, 5deg); */
+        transform: rotate3D(-0.5, -0.5, -0.25, 5deg);
     }
     50% {
         transform: rotateY(10deg);
