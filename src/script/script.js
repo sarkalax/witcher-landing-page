@@ -9,23 +9,24 @@ const particlesNum = 50,
 let particles = [];
 
 window.addEventListener("DOMContentLoaded", () => {
-    document.addEventListener("mousemove", (e) => {
-        let valueX = e.clientX - innerWidth / 2,
-            valueY = e.clientY - innerHeight / 2,
-            speedX = layer.dataset.speedx,
-            speedY = layer.dataset.speedy;
-
-        layer.style.transform = `translateX(${-valueX * speedX}px) translateY(${
-            valueY * speedY
-        }px) scale(1.1)`;
-    });
-
-    canvas.width = innerWidth;
-    canvas.height = innerHeight;
-
-    getParticles();
-
-    animate();
+    if (innerWidth >= 1440) {
+        document.addEventListener("mousemove", (e) => {
+            let valueX = e.clientX - innerWidth / 2,
+                valueY = e.clientY - innerHeight / 2,
+                speedX = layer.dataset.speedx,
+                speedY = layer.dataset.speedy;
+    
+            layer.style.transform = `translateX(${-valueX * speedX}px) translateY(${
+                valueY * speedY
+            }px) scale(1.1)`;
+        });
+    }
+        canvas.width = innerWidth;
+        canvas.height = innerHeight;
+    
+        getParticles();
+    
+        animate();
 });
 
 class Particle {
