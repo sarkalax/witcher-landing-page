@@ -43,6 +43,7 @@ li {
     background-position: center;
     mix-blend-mode: multiply;
     pointer-events: none;
+    transform-style: preserve-3d;
     z-index: 10;
 }
 main {
@@ -155,13 +156,15 @@ header li a:hover::after {
 
 @keyframes heads {
     from {
-        transform: rotate3D(-0.5, -0.5, -0.25, 5deg);
+        transform: ra;
+        /* transform: rotate3D(-0.5, -0.5, -0.25, 5deg); */
     }
     50% {
         transform: rotateY(10deg);
     }
     to {
         transform: rotate3D(0.5, 0.5, 0.25, -5deg);
+        /* transform: rotate3D(0.5, 0.5, 0.25, -5deg); */
     }
 }
 @keyframes geralt {
