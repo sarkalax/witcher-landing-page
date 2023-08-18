@@ -24,9 +24,7 @@ window.addEventListener("DOMContentLoaded", () => {
         canvas.width = innerWidth;
         canvas.height = innerHeight;
     
-        getParticles();
-    
-        animate();
+        
 });
 
 class Particle {
