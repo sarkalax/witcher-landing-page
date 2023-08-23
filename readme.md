@@ -1,3 +1,5 @@
+[Open](./index.html)
+
 **DESKTOP VERZE**
 
 Zdroje:
