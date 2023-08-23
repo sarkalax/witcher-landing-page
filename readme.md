@@ -1,4 +1,4 @@
-[Open](./index.html)
+[Open](https://sarysx.github.io/witcher-landing-page/)
 
 **DESKTOP VERZE**
 
