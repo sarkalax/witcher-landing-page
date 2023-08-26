@@ -18,4 +18,4 @@ Postup:
 
 * Vykreslení particles na canvas
 
-Do budoucna: optimalizace na mobil/tablet zařízení - laguje.. 
+Do budoucna: optimalizace performance - na mobil/tablet zařízení laguje.. 
