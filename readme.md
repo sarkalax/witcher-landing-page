@@ -12,10 +12,10 @@ https://www.fontspace.com/thewitcher-font-f25817
 Postup:
 * Photoshop: úprava obrázku - vytvoření vrstev
 
-* Vrstvy - HTML + CSS animace
+* HTML + CSS animace vrstev
 
 * Pozadí interaktivní s myší
 
-* Vykreslení particles na canvas
+* Létající particles - canvas
 
 Do budoucna: optimalizace performance - na mobil/tablet zařízení laguje.. 
