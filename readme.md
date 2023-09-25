@@ -1,4 +1,4 @@
-[Open](https://sarysx.github.io/witcher-landing-page/)
+[Open](https://sarkalax.github.io/witcher-landing-page/)
 
 **DESKTOP VERZE**
 
