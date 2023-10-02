@@ -18,4 +18,4 @@ Postup:
 
 * Létající particles - canvas
 
-Do budoucna: optimalizace performance - na mobil/tablet zařízení laguje.. 
+Do budoucna: optimalizace performance - na mobil/tablet zařízení laguje - zrušit parallax u mobilu 
